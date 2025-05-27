@@ -1,0 +1,61 @@
+body{
+    background-color: chocolate;
+}
+
+.title{
+    font-size: 2.8em; 
+    color: crimson;
+}
+
+.Logo{
+    width: 300px;  
+    height: 300px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+/* hace que al pasar el puntero del mouse por las cards, se resalte */
+.cards:hover{
+    background-color: rgb(63, 63, 191);    
+}
+
+#principal{
+    font-size: 5em;
+}
+
+#titulos{
+    border: 2px solid black;
+    /*viewport width = 65vw quiere decir que ocupa el 65% de la pantalla en cualquier dispositivo*/ 
+    width: 60vw;
+    /* Espacio margen del body*/
+    margin: auto;
+    /* Espacio dentro del div del margen al texto */
+    padding: 3em;
+    /* Uso de flexbox posicionando esta propiedad */
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+#cards-container{
+    
+    width: 85vw; 
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(113, 99, 99);
+    border-radius: 15px ;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
